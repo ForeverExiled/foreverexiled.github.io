@@ -2,7 +2,7 @@ $(document).ready(function () {
     $('#click-me').on('click', function () {
         $.ajax({
             type: "get",
-            url: "127.0.0.1:8000",
+            url: "http://127.0.0.1:8000/index.php",
             data: {
                 q: '1'
             },
